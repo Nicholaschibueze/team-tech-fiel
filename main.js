@@ -10,7 +10,7 @@ $(document).ready(function() {
         $('.fa-bars').removeClass('fa-times');
         $('.nav').removeClass('nav-toggle');
 
-        if ($(window).scrollTop() > 10) {
+        if ($(window).OVscrollTop() > 10) {
             $('header').addClass('header-active');
         } else {
             $('header').removeClass('header-active');

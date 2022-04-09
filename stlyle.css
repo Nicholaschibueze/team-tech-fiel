@@ -84,7 +84,7 @@ section {
 
 header {
     width: 100%;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     padding: 2rem 1rem;
@@ -92,7 +92,7 @@ header {
 }
 
 .header-active {
-    background: #fff;
+    background: gray;
     box-shadow: 0 .1rem .3rem rgba(0, 0, 0, .3);
     padding: .5rem 1rem;
 }
@@ -310,7 +310,7 @@ header .fa-bars {
 }
 
 .contact {
-    background: var(--blue);
+    background-image: url(./images/facility1.jpg);
 }
 
 .contact .heading {
@@ -354,7 +354,8 @@ select {
     margin: 0 auto;
     padding: 20px;
     box-shadow: 0px 0px 20px #00000010;
-    background-color: black;
+    background-color: grey;
+    opacity: 0.9;
     border-radius: 8px;
     margin-bottom: 20px;
   }

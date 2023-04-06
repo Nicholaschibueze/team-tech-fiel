@@ -247,8 +247,8 @@ header .fa-bars {
     position: absolute;
     bottom: -7.5rem;
     left: -1rem;
-    height: 5rem;
-    width: 5rem;
+    height: 7rem;
+    width: 7rem;
     border-radius: 50%;
     object-fit: cover;
 }
